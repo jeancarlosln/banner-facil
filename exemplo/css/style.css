@@ -1,0 +1,20 @@
+.slide {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 400px; /* ajuste para o tamanho da imagem */
+  }
+  
+  .slide img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 728px;
+    height: auto;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .slide img.active {
+    opacity: 1;
+  }
